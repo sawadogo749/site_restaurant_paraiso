@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.6.1-dist/css/Bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>mon restaurant</title>
+    <style>
+        body
+        {
+           height: auto; width: auto;
+           /*background-color: black*/;
+        }
+
+        header h1
+        {
+           text-align: center;
+           
+        }
+
+        nav ul{
+
+           display: flex;
+           justify-content:center;
+           list-style: none;
+           background-color: lightcoral;
+           padding: 1px;
+        }
+        nav ul li{
+            margin-left: auto;
+        }
+        nav ul li a
+        {
+            padding: 40px 40px;
+            font-size: 40px;
+            text-decoration: none;
+            color:black;
+        }
+        /*.container{
+             
+               height: 500vh;
+               background-color: black;
+        }*/
+
+        div .container{ border:500px solid; position: left; }
+      
+      }
+
+      div .divhaut { background-color: white; }
+
+      img{width: /*35*/45vh;height: /*24*/34vh;}
+      /*span{position: right; width: 50%;height: 30%;}
+      .col-md-2, .col-md-3{z-index: 20px;}*/
+      .menucolor {text-align: center; color:lightcoral font-family: Arial;}
+
+      .divnavmenu{
+          display: flex;
+           justify-content:center;
+           list-style: none;
+           /*background: -webkit-linear-gradient(left, purple, black, yellow);
+           background: -o-linear-gradient(right, purple, black, yellow);
+           background: -moz-linear-gradient(right, purple, black, yellow);
+           background: linear-gradient(to right, purple, black, yellow); */
+
+           background-image: url("./images/img.jpg");
+           background-size: 100%, 100%;
+          background-repeat: no-repeat;
+
+           webkit-animation-name: diapo;
+           webkit-animation-duration:15s;
+           webkit-animation-timing-function: linear;
+           webkit-animation-iteration-count:infinite;
+           webkit-animation-direction:normal;
+
+           moz-animation-name: diapo;
+           moz-animation-duration:15s;
+           moz-animation-timing-function: linear;
+           moz-animation-iteration-count:infinite;
+           moz-animation-direction:normal;
+
+           animation-name: diapo;
+           animation-duration:15s;
+           animation-timing-function: linear;
+           animation-iteration-count:infinite;
+           animation-direction:normal;
+
+           /*------------------------------------*/
+
+           padding: 30px 30px;
+            font-size: 30px;
+            text-decoration: underline;
+            color: white;
+      }
+
+      @-webkit-keyframes diapo {
+        0%{background-image: url(./images/img.jpg);}
+        33%{background-image: url(./images/bissap.jpg);}
+        66%{background-image: url(./images/poulet braise.jpg);}
+      }
+
+      @-moz-keyframes diapo {
+        0%{background-image: url(./images/img.jpg);}
+        33%{background-image: url(./images/bissap.jpg);}
+        66%{background-image: url(./images/poulet braise.jpg);}
+      }
+
+      @keyframes diapo {
+        0%{background-image: url(./images/img.jpg);}
+        33%{background-image: url(./images/bissap.jpg);}
+        66%{background-image: url(./images/poulet braise.jpg);}
+      }
+      .divnavmenu ul a{
+        color: lightcoral;
+      } 
+.divnav ul li{
+  color: black;
+}
+    </style>
+</head>
+<body>
+<header>
+            
+     <div class="divhaut">
+           <header>
+            <h1 style="color:black; text-decoration: underline;"><i><b><strong>Paraiso Del Gusto</strong></b></i></h1>
+           </header>
+     </div>       
+    <div class="divnav">
+       <nav>
+           <ul>
+            <li><a href="./mon restaurant.html"> <i><strong>Accueuil</strong> </i></a></li>
+            <li><a href="./Menu.html"><i><strong>Menu</strong></i></a></li>
+            <li><a href="./histoire.html"><i><strong>A propos de nous</strong></i></a></li>
+            <li><a href="./mon restaurant.html"><i><strong>Reservation</strong></i></a></li>
+           </ul>
+       </nav>
+    </div>
+</header>
+
+<!-- pour la partie du menu-->
+
+<div>
+        <h1 class="menucolor"><i><b><strong>Menu</strong></b></i></h1>
+      </div>
+
+      <div class="divnavmenu">
+         
+             <ul style="list-style: none;">
+              <li><a href="Plats Africain.html" ><i>Plats Africain</i></a></li>
+              <li><a href="Plats Exotiques.html"><i>Plats Exotiques</i></a></li>
+              <li><a href="Fast-food.html"><i>Fast-food</i></a></li>
+              <li><a href="Boissons et jus.html"><i>Boissons et jus</i></a></li>
+              <li><a href="Desserts.html"><i>Désserts</i></a></li>
+             </ul>
+         
+      </div> 
+
+
+<div class="container">
+
+    <header>
+      <!--<div>
+        <h1 class="menucolor">Menu</h1>
+      </div>
+
+      <div class="divnavmenu">
+         <nav>
+             <ol type=" ">
+               <li><a href="#">Plats Africain</a></li>
+               <li><a href="#">Plats Exotiques</a></li>
+               <li><a href="#">Fast-food</a></li>
+               <li><a href="#">Boissons et jus</a></li>
+             </ol>
+         </nav>
+      </div> -->
+
+    </header>
+    <br>
+    <br>
+
+
+      <h3 style="color:coral;text-align: center; font-size: 90px;"><i><b><strong>Desserts</strong></b></i></h3>
+      <br>
+      <section class="row">
+        
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/salade-fruits-bien.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>salade de fruits:1000fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/gateau-framboises.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i> gateau aux framboises:1500fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/fondant-caramel.jpg">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"> <i>fondant au caramel:1500fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/fondant aux chocolat.jpg">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>fondant aux chocolat:1500fcfa</i></pre></div>
+          <br>
+        </div>
+
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/dessert-creme-fruit.jpg">
+          <div class="col-xs-4 col-sm-3 col-md-12"><pre style="font-size: 20px;"><i>dessert-creme aux fruits:1000fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/creme-aux-fruits.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>creme aux fruits:1000fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/buches de noel.jpeg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>buches de noel:1000fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/brochette-creme-glace.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>brochette de creme glacée:1000fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./photo/phot.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Gateau à la papille:1000fcfa</i></pre></div>
+          <br>
+        </div>
+
+      </section>
+      
+    </div>
+
+</section>
+
+
+<div style="text-align: center;font-size: 50px;">
+      <ul style="list-style: none;text-decoration:underline;">
+        <li><a href="menu.html" style="color:black;"><h><i><b><strong>Retour Au Menu</strong></b></i></h1></a></li>
+      </ul>
+    </div>
+
+</body>
+</html>

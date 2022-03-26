@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.6.1-dist/css/Bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>mon restaurant</title>
+    <style>
+        body
+        {
+           height: auto; width: auto;
+           /*background-color: black*/
+        }
+
+        header h1
+        {
+           text-align: center;
+           text-decoration: overline;
+           
+        }
+
+        nav ul{
+
+           display:flex;
+           justify-content:center;
+           list-style: none;
+           background-color: lightcoral;
+           padding: 1px;
+        }
+        nav ul li{
+            margin-left: auto;
+        }
+        nav ul li a
+        {
+            padding: 40px 40px;
+            font-size: 40px;
+            text-decoration: none;
+            color:black;
+        }
+        /*.container{
+             
+               height: 500vh;
+               background-color: black;
+        }*/
+
+        div .container{ border:500px solid; position: left; }
+      
+      }
+
+      div .divhaut { background-color: white; }
+
+      img{width: /*35*/45vh;height: /*24*/34vh;}
+      /*span{position: right; width: 50%;height: 30%;}
+      .col-md-2, .col-md-3{z-index: 20px;}*/
+      .menucolor {text-align: center; color:black;
+         font-family: Arial;}
+
+      .divnavmenu{
+          
+           justify-content:center;
+           list-style: none;
+          display: flex;
+           /*background: -webkit-linear-gradient(left, purple, black, yellow);
+           background: -o-linear-gradient(right, purple, black, yellow);
+           background: -moz-linear-gradient(right, purple, black, yellow);
+           background: linear-gradient(to right, purple, black, yellow); */
+
+           background-image: url("./images/donkounou\ au\ poisson.jpg");
+           background-size: 100%, 100%;
+          background-repeat: no-repeat;
+
+           webkit-animation-name: diapo;
+           webkit-animation-duration:15s;
+           webkit-animation-timing-function: linear;
+           webkit-animation-iteration-count:infinite;
+           webkit-animation-direction:normal;
+
+           moz-animation-name: diapo;
+           moz-animation-duration:15s;
+           moz-animation-timing-function: linear;
+           moz-animation-iteration-count:infinite;
+           moz-animation-direction:normal;
+
+           animation-name: diapo;
+           animation-duration:15s;
+           animation-timing-function: linear;
+           animation-iteration-count:infinite;
+           animation-direction:normal;
+
+           /*------------------------------------*/
+
+           padding: 30px 30px;
+            font-size: 30px;
+            
+            color:black;
+      }
+
+      @-webkit-keyframes diapo {
+        0%{background-image: url(./images/img.jpg);}
+        33%{background-image: url(./images/bissap.jpg);}
+        66%{background-image: url(./images/poulet braise.jpg);}
+      }
+
+      @-moz-keyframes diapo {
+        0%{background-image: url(./images/img.jpg);}
+        33%{background-image: url(./images/bissap.jpg);}
+        66%{background-image: url(./images/poulet braise.jpg);}
+      }
+
+      @keyframes diapo {
+        0%{background-image: url(./images/img.jpg);}
+        33%{background-image: url(./images/bissap.jpg);}
+        66%{background-image: url(./images/poulet braise.jpg);}
+      }
+@media screen and (max-width:700px){
+
+    body{
+      background-color: black;
+    }
+  
+}
+    </style>
+</head>
+<body>
+<header>
+            
+     <div class="divhaut">
+           <header>
+               <h1 style="color:black; text-decoration: underline;"><i><b><strong>Paraiso Del Gusto</strong></b></i></h1>
+           </header>
+     </div>       
+    <div class="divnav">
+       <nav>
+           <ul>
+            <li><a href="./mon restaurant.html"> <i><strong>Accueuil</strong> </i></a></li>
+            <li><a href="./Menu.html"><i><strong>Menu</strong></i></a></li>
+            <li><a href="./histoire.html"><i><strong>A propos de nous</strong></i></a></li>
+            <li><a href="./mon restaurant.html"><i><strong>Reservation</strong></i></a></li>
+           </ul>
+           </ul>
+       </nav>
+    </div>
+</header>
+
+<!-- pour la partie du menu-->
+
+        <h1 class="menucolor" style="font-size: 50px;"><i><strong><b>Menu</b></strong></i></h1>
+      
+
+      <div class="divnavmenu">
+         
+             <ul type=" " style="list-style: none;">
+               <li><a href="Plats Africain.html" style="color: lightcoral;"><i>Plats Africain</i></a></li>
+               <li><a href="Plats Exotiques.html" style="color: lightcoral;"><i>Plats Exotiques</i></a></li>
+               <li><a href="Fast-food.html" style="color: lightcoral;"><i>Fast-food</i></a></li>
+               <li><a href="Boissons et jus.html" style="color: lightcoral;"><i>Boissons et jus</i></a></li>
+               <li><a href="Desserts.html" style="color: lightcoral;"><i>Désserts</i></a></li>
+             </ul>
+        
+      </div> 
+
+
+<div class="container">
+
+    <header>
+      <!--<div>
+        <h1 class="menucolor">Menu</h1>
+      </div>
+
+      <div class="divnavmenu">
+         <nav>
+             <ol type=" ">
+               <li><a href="#">Plats Africain</a></li>
+               <li><a href="#">Plats Exotiques</a></li>
+               <li><a href="#">Fast-food</a></li>
+               <li><a href="#">Boissons et jus</a></li>
+             </ol>
+         </nav>
+      </div> -->
+
+    </header>
+      <br>
+      <br>
+      <br>
+      <h3 style="color: #954061;font-size: 50px; text-align: center; font-size: 90px;" ><i> <b><strong>Plats africains</strong></b></i> </h3>
+      <br>
+      <section class="row">
+        
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/attieke.jpg.jpg">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Attiéké+ poisson carpe braisé+alloco : 1500fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/binga.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Bèga (Haricot)+poulet: 1500fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/babenda.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Babènda: 1000fcfa</i></pre></div>
+          <br>
+        </div>
+
+
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/d.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Donkounou+poisson: 1000fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/couscous.jpg.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Couscous au légumes: 1500fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/chitoumou.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"><pre style="font-size: 20px;"><i>Chitoumou: 1000fcfa</i></pre></div>
+          <br>
+        </div>
+
+
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/pouletDjecount.jpg.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Riz gras+ poulet frit: 1500fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/yassa.jpg.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"><pre style="font-size: 20px;"><i>Riz sauce yassa: 1000fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/rizSauceTomate.jpg.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"><pre style="font-size: 20px;"><i>Riz sauce tomate: 1000fcfa</i></pre></div>
+          <br>
+        </div>
+
+
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/kafa.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Kafa(tô)+sauce+viande de boeuf: 1000fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/gonre.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Gonré: 1000fcfa</i>/pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/ragout au mouton.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Ragout au mouton: 1500fcfa</i></pre></div>
+          <br>
+        </div>
+
+
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/alloco.jpg.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Alloco (Banane plantain frit: 1000fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/foutoubanane.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"><pre style="font-size: 20px;"><i>Foutou banane: 1500fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/sauceFeuilles.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Riz sauce feuilles+poisson braisé: 1500fcfa</i></pre> </div>
+          <br>
+        </div>
+
+
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/bouletteViandeBoeuf.jpg.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Boullette de viande de boeuf: 1000fcfa</i></pre> </div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/pouletBiciclette.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Poulet biciclette: 3000fcfa</i></pre></div>
+          <br>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-4"> <img src="./images/ragout.jpg.jpg ">
+          <div class="col-xs-4 col-sm-3 col-md-12"> <pre style="font-size: 20px;"><i>Ragout d'ignam: 1000fcfa</i></pre></div>
+          <br>
+        </div>
+      </section>
+      <br>
+      <br>
+    </div>
+
+    <div style="text-align: center; font-size: 90px; ">
+      <ul style="list-style: none;text-decoration:underline;">
+        <li style="text-decoration: underline; "><a href="menu.html" style="color:black"><h1><i><b><strong>Retour au menu</strong></b></i></h1></a></li>
+      </ul>
+    </div>
+
+  </body>
+  </html>

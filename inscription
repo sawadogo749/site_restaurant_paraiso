@@ -1,0 +1,32 @@
+<?php
+
+
+		$serveur="localhost";
+		$dbname="paraiso";
+		$user="root";
+		$pass="";
+		$nom=$_POST["nom"];
+		$prenom=$_POST["prenom"];
+		$tel=$_POST["tel"];
+		$email=$_POST["mail"];
+		
+		 
+
+		try{
+		    $dbco=new PDO ("mysql:host=$serveur; dbname=$dbname",$user,$pass);
+		    $dbco->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		    $sth=$dbco->prepare("INSERT INTO inscription(nom,prenom,tel,mail) VALUES(:nom,:prenom, :tel, :mail)");
+
+		    $sth->bindParam(':nom',$nom);
+		    $sth->bindParam(':prenom',$prenom);
+		    $sth->bindParam(':tel',$tel);
+		    $sth->bindParam(':mail',$email);
+		    $sth->execute();
+		   
+		}
+		catch(PDOException $e){
+		     echo 'Erreur de traitement:' . $e->getMessage() ;
+
+		}
+
+?>
